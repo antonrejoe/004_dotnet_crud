@@ -1,0 +1,14 @@
+@using TestCoreMVC.Models.Entities;
+@model Employee 
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Message"]</h1>
+    <div>
+        <p><label>Employee ID</label><span>:</span><label>@Model.EmployeeId</label></p>
+        <p><label>Name</label><span>:</span><label>@Model.Name</label></p>
+        <p><label>Branch</label><span>:</span><label>@Model.Branch</label></p>
+        <p><label>Section</label><span>:</span><label>@Model.Section</label></p>
+        <p><label>Experience</label><span>:</span><label>@Model.Experience</label></p>
+    </div>
+
+    <div><a href="../" >Back</a></div>
+</div>

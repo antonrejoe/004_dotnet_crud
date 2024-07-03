@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KYcGHxgrxmr1O9RIiiZ4E99AYK54pn34NLbewyurJeYfEmChOtbz2mfLV4U0KETvK6hwVTXz8AKNWW1C/hnlrg==",
+  "success": true,
+  "projectFilePath": "/media/ssd_internal_victus/work/learning/dotnet/005_crud_app/005_crud_app.csproj",
+  "expectedPackageFiles": [
+    "/home/antonrejoe/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

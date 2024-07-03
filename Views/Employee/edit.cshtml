@@ -1,0 +1,18 @@
+@using TestCoreMVC.Models.Entities;
+@model Employee
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Message"]</h1>
+    <div>
+        <form asp-action="Update" asp-controller="Employee" method="post">
+            <p><label>Student ID</label><span>:</span><label>@Model.EmployeeId</label></p>
+            <p><input type="hidden" name="EmployeeId" value="@Model.EmployeeId" /></p>
+            <p><label>Name</label><span>:</span><input type="text" name="Name" value="@Model.Name" /></p>
+            <p><label>Branch</label><span>:</span><input type="text" name="Branch" value="@Model.Branch" /></p>
+            <p><label>Section</label><span>:</span><input type="text" name="Section" value="@Model.Section" /></p>
+            <p><label>Gender</label><span>:</span><input type="text" name="Experience" value="@Model.Experience" /></p>
+
+            <p><input type="submit" value="Submit" /></p>
+        </form>
+    </div>
+    <div><a href="../">Back</a></div>
+</div>
